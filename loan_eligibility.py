@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 import joblib
 
-df = pd.read_csv('streamlit-apps/loan-eligibility/credit_risk_dataset.csv')
+df = pd.read_csv('credit_risk_dataset.csv')
 
 features = [
     'person_home_ownership', 'loan_intent', 'loan_grade', 'cb_person_default_on_file',
